@@ -78,15 +78,15 @@
 .hero__desc {
   display: flex;
   align-items: center;
-  @media screen and(max-width:767px) {
+  @media screen and (max-width:767px) {
     display: none;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width:768px) {
     position: absolute;
     left: 32px;
     top: 246px;
   }
-  @media screen and(min-width:1280px) {
+  @media screen and (min-width:1280px) {
     position: absolute;
     top: 388px;
     left: 16px;
@@ -261,14 +261,14 @@
   animation-name: Appearance;
   animation-duration: 500ms;
   animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
-  @media screen and(max-width:767px) {
+  @media screen and (max-width:767px) {
     display: none;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width:768px) {
     left: 546px;
     top: 265px;
   }
-  @media screen and(min-width:1280px) {
+  @media screen and (min-width:1280px) {
     left: 958px;
     top: 421px;
   }
@@ -276,14 +276,14 @@
 .hero__number-shop__box {
   position: absolute;
 
-  @media screen and(max-width:767px) {
+  @media screen and (max-width:767px) {
     display: none;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width:768px) {
     left: 701px;
     top: 94px;
   }
-  @media screen and(min-width:1280px) {
+  @media screen and (min-width:1280px) {
     left: 1169px;
     top: 153px;
   }
@@ -387,7 +387,7 @@
     color: var(--light-txt);
     background: var(--hover-btn-bg);
   }
-  @media screen and(min-width:320px) {
+  @media screen and (min-width:320px) {
     width: 61.2px;
     height: 24px;
     font-size: 8px;
@@ -395,7 +395,7 @@
     margin-right: 9px;
     padding: 2px 6.63px;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width:768px) {
     width: 62.4px;
     height: 24px;
     font-size: 8px;
@@ -403,7 +403,7 @@
     margin-right: 9px;
     padding: 2px 6.63px;
   }
-  @media screen and(min-width:1280px) {
+  @media screen and (min-width:1280px) {
     width: 107px;
     height: 40px;
     font-size: 14px;
@@ -434,7 +434,7 @@
   &:focus {
     background: #ecebeb;
   }
-  @media screen and(min-width:320px) {
+  @media screen and (min-width:320px) {
     width: 82.8px;
     height: 24px;
     font-size: 8px;
@@ -442,7 +442,7 @@
 
     padding: 2px 6.63px;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width:768px) {
     width: 82.8px;
     height: 24px;
     font-size: 8px;
@@ -450,7 +450,7 @@
 
     padding: 2px 6.63px;
   }
-  @media screen and(min-width:1280px) {
+  @media screen and (min-width:1280px) {
     width: 138px;
     height: 40px;
     font-size: 14px;
