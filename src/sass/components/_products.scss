@@ -185,7 +185,7 @@ $colors: #FFB8CA, "#F0D1A5", "#C2E297";
 
  @include mq(mobile-only) {
     .products__item:nth-child(1)::before {
-        background-image: url('../images/products/straw-ice-mobile.png');
+        background-image: url('images/products/straw-ice-mobile.png');
         background-size: contain;
             background-repeat: no-repeat;
         
@@ -193,7 +193,7 @@ $colors: #FFB8CA, "#F0D1A5", "#C2E297";
 
     @include mq (retina) {
     .products__item:nth-child(1)::before {
-        background-image: url('../images/products/straw-ice-mobile@2x.png');
+        background-image: url('images/products/straw-ice-mobile@2x.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -202,14 +202,14 @@ $colors: #FFB8CA, "#F0D1A5", "#C2E297";
 
  @include mq(tablet-only) {
     .products__item:nth-child(1)::before {
-        background-image: url('../images/products/straw-ice-tablet.png');
+        background-image: url('images/products/straw-ice-tablet.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
 
     @include mq(retina) {
     .products__item:nth-child(1)::before {
-        background-image: url('../images/products/straw-ice-tablet@2x.png');
+        background-image: url('images/products/straw-ice-tablet@2x.png');
         background-size: contain;
         background-repeat: no-repeat;
         }
